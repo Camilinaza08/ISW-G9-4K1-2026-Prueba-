@@ -163,8 +163,6 @@ Para evitar la burocracia innecesaria de un comité tradicional de control de ca
 * **PCA (Auditoría Física de Configuración)**: El Administrador de Configuración del grupo valida periódicamente que los archivos estén en las carpetas correctas del repositorio, que el nombrado sea consistente con la Matriz de Identificación de Ítems de Configuración (SCIs) y que el contenido del repositorio coincida exactamente con el contenido estipulado para dicha Línea Base.
 * **FCA (Auditoría Funcional de Configuración)**: Un integrante diferente al autor de un TP realiza una verificación funcional (auditoría del entregable) controlando el contenido versus el enunciado oficial de la cátedra para asegurar que cubra el 100% de los requisitos y criterios de evaluación antes de congelar la entrega.
 
-### Declaración de Uso de Inteligencia Artificial
-
 ---
 
 ### Declaración de Uso de Inteligencia Artificial
@@ -177,5 +175,6 @@ Las propuestas obtenidas mediante estas herramientas fueron revisadas, analizada
 
 Por lo tanto, la utilización de Inteligencia Artificial se realizó como una **herramienta de apoyo al desarrollo del trabajo**, manteniendo en todo momento la revisión crítica, validación y responsabilidad final sobre las decisiones y contenidos por parte de los integrantes del grupo.
 
+---
 
   
