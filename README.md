@@ -4,9 +4,14 @@
 
 Repositorio del **Grupo 9 (Curso 4K1 - Año 2026)** para la organización colaborativa de los contenidos de la materia **Ingeniería y Calidad de Software (UTN-FRC)**.
 
+### Repositorio
+
+El repositorio correspondiente al presente trabajo práctico se encuentra disponible en:
+**(https://github.com/agustinajuri18/ISW-G9-4K1-2026)**
+
 ### Integrantes del Grupo
 
-* **Nombre:** Calderón, Ana Victoria - **Legajo:** 402851 - **Usuario:** vicaalderon
+* **Nombre:** Calderón, Ana Victoria - **Legajo:** 402851 - **Usuario:** viccalderon
 * **Nombre:** Díaz, Brisa Abigaíl - **Legajo:** 97287 - **Usuario:** BrisaDiaz
 * **Nombre:** Escudero Olivera, Matías Rubén - **Legajo:** 402434  - **Usuario:** escuderomann
 * **Nombre:** Fuertes Galera, Emiliano - **Legajo:** 402186 - **Usuario:** emolianito
@@ -157,3 +162,20 @@ Para evitar la burocracia innecesaria de un comité tradicional de control de ca
 
 * **PCA (Auditoría Física de Configuración)**: El Administrador de Configuración del grupo valida periódicamente que los archivos estén en las carpetas correctas del repositorio, que el nombrado sea consistente con la Matriz de Identificación de Ítems de Configuración (SCIs) y que el contenido del repositorio coincida exactamente con el contenido estipulado para dicha Línea Base.
 * **FCA (Auditoría Funcional de Configuración)**: Un integrante diferente al autor de un TP realiza una verificación funcional (auditoría del entregable) controlando el contenido versus el enunciado oficial de la cátedra para asegurar que cubra el 100% de los requisitos y criterios de evaluación antes de congelar la entrega.
+
+### Declaración de Uso de Inteligencia Artificial
+
+---
+
+### Declaración de Uso de Inteligencia Artificial
+
+Para la realización del presente trabajo práctico se utilizaron herramientas de **Inteligencia Artificial (IA)** como apoyo complementario durante el proceso de planificación y configuración del repositorio.
+
+Su utilización estuvo orientada principalmente a la **organización y estructuración de la información, análisis y revisión de las decisiones de configuración adoptadas, mejora de la redacción y revisión conceptual de los contenidos incluidos en el Plan de Gestión de Configuración (SCMP)**.
+
+Las propuestas obtenidas mediante estas herramientas fueron revisadas, analizadas y adaptadas por los integrantes del grupo de acuerdo con los contenidos y lineamientos establecidos por la cátedra y con las decisiones adoptadas por el equipo para la gestión del repositorio.
+
+Por lo tanto, la utilización de Inteligencia Artificial se realizó como una **herramienta de apoyo al desarrollo del trabajo**, manteniendo en todo momento la revisión crítica, validación y responsabilidad final sobre las decisiones y contenidos por parte de los integrantes del grupo.
+
+
+  
