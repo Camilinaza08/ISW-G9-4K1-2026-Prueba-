@@ -9,10 +9,10 @@ Repositorio del **Grupo 9 (Curso 4K1 - Año 2026)** para la organización colabo
 * **Nombre:** Calderón, Ana Victoria - **Legajo:** 402851 - **Usuario:** vicaalderon
 * **Nombre:** Díaz, Brisa Abigaíl - **Legajo:** 97287 - **Usuario:** BrisaDiaz
 * **Nombre:** Escudero Olivera, Matías Rubén - **Legajo:** 402434  - **Usuario:** escuderomann
-* **Nombre:** Fuertes, Galera Emiliano - **Legajo:** 402186 - **Usuario:** emolianito
+* **Nombre:** Fuertes Galera, Emiliano - **Legajo:** 402186 - **Usuario:** emolianito
 * **Nombre:** Galetto, Fiorella - **Legajo:** 400305 - **Usuario:** fiorellag26
 * **Nombre:** Gorosito, Tamara - **Legajo:** 90740 - **Usuario:** tamaraMG
-* **Nombre:** Guevara Lopez, Joaquin - **Legajo:**  - **Usuario:** joaquinsinho
+* **Nombre:** Guevara Lopez, Joaquin - **Legajo:** 300543 - **Usuario:** joaquinsinho
 * **Nombre:** Juri Romero, Agustina - **Legajo:** 95317 - **Usuario:** agustinajuri18
 * **Nombre:** Linaza, Camila - **Legajo:** 402370 - **Usuario:** camilinaza08
 * **Nombre:** Maccio, Tomás Agustín - **Legajo:** 400057 - **Usuario:** maccio-bit
@@ -48,13 +48,13 @@ La estructura del repositorio Trunk-Based se rediseña para reflejar físicament
 │   │       └── ISW_Template_<<Nombre>>.xlsx/docx
 │   ├── /Material_Clase                 (De Clase - Dinámicas y notas espontáneas del aula)
 │   │   ├── ISW_Notas_<<DDMM>>.pdf       (De Clase - Apuntes y toma de notas tomadas durante la clase)
-│   │   └── /ISW_Ejercicio<<NN>>_<<Tema>> (De Clase - Soluciones a TPs no evaluables y prácticas)
+│   │   └── ISW_Ejercicio<<NN>>_<<Tema>>.pdf (De Clase - Soluciones a TPs no evaluables y prácticas)
 │   └── /Produccion_Propia              (De Producción Propia - Entregables consolidados por el grupo)
 │       ├── /Resumenes                  (De Producción Propia - Resúmenes teóricos para exámenes)
 │       │   └── ISW_Resumen_U<<NN>>_<<Tema>>.pdf
 │       ├── /Resoluciones_TPs           (De Producción Propia - Carpetas contenedoras de entregables)
 │       │   └── /ISW_TP<<NN>>_<<NombreTP>>.pdf
-            └── /ISW_MaterialExtra_TP<<NN>>_<<NombreTP>>.zip/rar
+│           └── /ISW_MaterialExtra_TP<<NN>>_<<NombreTP>>.zip/rar
 │       └── /Trabajos_Investigacion     (De Producción Propia - Informes y presentaciones de investigación)
 │           └── ISW_Trabajos_Investigacion<<NN>>_<<Nombre>>.pdf
 
@@ -80,7 +80,7 @@ Para mantener la trazabilidad e integridad de los contenidos, cada archivo se id
 | **Consignas Investigación** | `ISW_Consignas_Trabajos_Investigacion.pdf` | `/Tronco_Activo/Material_Catedra/Consignas/` | **De Cátedra** | Enunciados y pautas para los trabajos de investigación. |
 | **Plantillas de Cátedra** | `ISW_Template_<<Nombre>>.xlsx/docx` | `/Tronco_Activo/Material_Catedra/Templates/` | **De Cátedra** | Plantillas base estandarizadas para la entrega de trabajos. |
 | **Toma de Notas de Clase** | `ISW_Notas_<<DDMM>>.pdf` | `/Tronco_Activo/Material_Clase/` | **De Clase** | Registro dinámico de conceptos teóricos capturados en clase. |
-| **Ejercicios de Clase** | `/ISW_Ejercicio<<NN>>_<<Tema>>/` | `/Tronco_Activo/Material_Clase/` | **De Clase** | Directorio con trabajos prácticos no evaluables o ejercicios de aula. |
+| **Ejercicios de Clase** | `ISW_Ejercicio<<NN>>_<<Tema>>.pdf` | `/Tronco_Activo/Material_Clase/` | **De Clase** | Resolución de trabajos prácticos no evaluables o ejercicios de aula. |
 | **Resúmenes Teóricos** | `ISW_Resumen_U<<NN>>_<<Tema>>.pdf` | `/Tronco_Activo/Produccion_Propia/Resumenes/` | **De Producción Propia** | Resúmenes teóricos elaborados para exámenes parciales/finales. |
 | **Resolución TPs Evaluables** | `/ISW_TP<<NN>>_<<NombreTP>>/` | `/Tronco_Activo/Produccion_Propia/Resoluciones_TPs/` | **De Producción Propia** | Directorio contenedor del TP (documentos, código, diagramas) listo para PCA/FCA. |
 | **Material Extra TPs Evaluables** | `/ISW_MaterialExtra_TP<<NN>>_<<NombreTP>>/` | `/Tronco_Activo/Produccion_Propia/Resoluciones_TPs/` | **De Producción Propia** | Material extra que fue utilizado durante la realización del trabajo práctico. |
@@ -103,21 +103,24 @@ LB_<<NN>>_<<HITO>>_v<<X.Y>>
 
 * **`LB`**: Prefijo fijo que identifica una Línea Base aprobada.
 * **`<<NN>>`**: Número de secuencia del hito de evaluación (ej. `01`, `02`).
-* **`<<HITO>>`**: Nombre descriptivo en Mayúsculas del hito académico (ej. `PARCIAL1`, `TP01`, `FINAL`).
+* **`<<HITO>>`**: Nombre descriptivo en Mayúsculas del hito académico (ej. `PARCIAL1`).
 * **`v<<X.Y>>`**: Versión del entregable. `X` representa la versión mayor aprobada (comienza en `1.0`), e `Y` incrementa si se realiza un re-entregable o corrección post-auditoría docentes (ej. `v1.1`).
 
 **Ejemplos de Tags Válidos:**
 
 * `LB_01_PARCIAL1_v1.0`
-* `LB_02_TP01_EVALUABLE_v1.0`
-* `LB_03_PARCIAL2_v1.0`
+* `LB_02_PARCIAL2_v1.0`
+* `LB_03_CIERRE_MATERIA_v1.0`
 
 ---
 
 #### 2. Hitos de Línea Base
 
-* **LB_01 (Primer Parcial)**: Congela la versión aprobada de resúmenes U01-U03, resoluciones de TPs evaluables (`/ISW_TP01_.../` a `/ISW_TP04_.../`) y guías prácticas complementarias.
-* **LB_02 (Segundo Parcial)**: Congela la versión aprobada de resúmenes U04-U05, resoluciones de TPs correspondientes y la retrospectiva ágil del equipo.
+| Identificador | Nombre del Hito | Descripción del Contenido | Criterio 
+| :--- | :--- | :--- | :--- |
+| **LB_01** | `PARCIAL1` | Versión aprobada de resúmenes U01-U03, resoluciones de TPs evaluables de la primera etapa y guías prácticas complementarias. | Al finalizar la rendición del 1er Parcial.
+| **LB_02** | `PARCIAL2` | Versión aprobada de resúmenes U01-U03, resoluciones de TPs evaluables y guías prácticas complementarias.| Al finalizar la rendición del 2do Parcial.
+| **LB_03** | `CIERRE_MATERIA` |  Entregables finales de los Trabajos de Investigación Grupal y portafolio grupal final consolidado. | Al completarse las exposiciones de los TIGs, previo al cierre definitivo del ciclo lectivo. 
 
 ---
 
@@ -127,7 +130,6 @@ LB_<<NN>>_<<HITO>>_v<<X.Y>>
 2. **Creación del Tag Anotado**: Se genera la etiqueta anotada en Git haciendo referencia al commit auditado y firmado:
 ```bash
 git tag -a LB_01_PARCIAL1_v1.0 -m "Línea Base LB_01: Consolida entrega de Primer Parcial y TPs evaluables 01 a 04."
-
 ```
 
 
