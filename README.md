@@ -58,8 +58,9 @@ La estructura del repositorio Trunk-Based se rediseña para reflejar físicament
 │       ├── /Resumenes                  (De Producción Propia - Resúmenes teóricos para exámenes)
 │       │   └── ISW_Resumen_U<<NN>>_<<Tema>>.pdf
 │       ├── /Resoluciones_TPs           (De Producción Propia - Carpetas contenedoras de entregables)
-│       │   └── /ISW_TP<<NN>>_<<NombreTP>>.pdf
-│           └── /ISW_MaterialExtra_TP<<NN>>_<<NombreTP>>.zip/rar
+│       │   └── /ISW_TP<<NN>>_<<NombreTP>>
+│               └── /ISW_Resolucion_TP<<NN>>_<<NombreTP>>.pdf
+                └── /ISW_MaterialExtra_TP<<NN>>_<<NombreTP>>.zip/rar
 │       └── /Trabajos_Investigacion     (De Producción Propia - Informes y presentaciones de investigación)
 │           └── ISW_Trabajos_Investigacion<<NN>>_<<Nombre>>.pdf
 
@@ -87,7 +88,7 @@ Para mantener la trazabilidad e integridad de los contenidos, cada archivo se id
 | **Toma de Notas de Clase** | `ISW_Notas_<<DDMM>>.pdf` | `/Tronco_Activo/Material_Clase/` | **De Clase** | Registro dinámico de conceptos teóricos capturados en clase. |
 | **Ejercicios de Clase** | `ISW_Ejercicio<<NN>>_<<Tema>>.pdf` | `/Tronco_Activo/Material_Clase/` | **De Clase** | Resolución de trabajos prácticos no evaluables o ejercicios de aula. |
 | **Resúmenes Teóricos** | `ISW_Resumen_U<<NN>>_<<Tema>>.pdf` | `/Tronco_Activo/Produccion_Propia/Resumenes/` | **De Producción Propia** | Resúmenes teóricos elaborados para exámenes parciales/finales. |
-| **Resolución TPs Evaluables** | `/ISW_TP<<NN>>_<<NombreTP>>/` | `/Tronco_Activo/Produccion_Propia/Resoluciones_TPs/` | **De Producción Propia** | Directorio contenedor del TP (documentos, código, diagramas) listo para PCA/FCA. |
+| **Resolución TPs Evaluables** | `//ISW_Resolucion_TP<<NN>>_<<NombreTP>>.pdf` | `/Tronco_Activo/Produccion_Propia/Resoluciones_TPs/ISW_TP<<NN>>_<<NombreTP>>/` | **De Producción Propia** | Resolución de trabajos prácticos evaluables |
 | **Material Extra TPs Evaluables** | `/ISW_MaterialExtra_TP<<NN>>_<<NombreTP>>/` | `/Tronco_Activo/Produccion_Propia/Resoluciones_TPs/` | **De Producción Propia** | Material extra que fue utilizado durante la realización del trabajo práctico. |
 | **Trabajos de Investigación** | `ISW_Trabajos_Investigacion<<NN>>_<<Nombre>>.pdf` | `/Tronco_Activo/Produccion_Propia/Trabajos_Investigacion/` | **De Producción Propia** | Informes de investigación técnica elaborados por el equipo. |
 
@@ -124,7 +125,7 @@ LB_<<NN>>_<<HITO>>_v<<X.Y>>
 | Identificador | Nombre del Hito | Descripción del Contenido | Criterio 
 | :--- | :--- | :--- | :--- |
 | **LB_01** | `PARCIAL1` | Versión aprobada de resúmenes U01-U03, resoluciones de TPs evaluables de la primera etapa y guías prácticas complementarias. | Al finalizar la rendición del 1er Parcial.
-| **LB_02** | `PARCIAL2` | Versión aprobada de resúmenes U01-U03, resoluciones de TPs evaluables y guías prácticas complementarias.| Al finalizar la rendición del 2do Parcial.
+| **LB_02** | `PARCIAL2` | Versión aprobada de resúmenes U02-U04, resoluciones de TPs evaluables y guías prácticas complementarias.| Al finalizar la rendición del 2do Parcial.
 | **LB_03** | `CIERRE_MATERIA` |  Entregables finales de los Trabajos de Investigación Grupal y portafolio grupal final consolidado. | Al completarse las exposiciones de los TIGs, previo al cierre definitivo del ciclo lectivo. 
 
 ---
