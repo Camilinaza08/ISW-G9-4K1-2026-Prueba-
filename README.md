@@ -4,11 +4,6 @@
 
 Repositorio del **Grupo 9 (Curso 4K1 - Año 2026)** para la organización colaborativa de los contenidos de la materia **Ingeniería y Calidad de Software (UTN-FRC)**.
 
-### Repositorio
-
-El repositorio correspondiente al presente trabajo práctico se encuentra disponible en:
-**(https://github.com/agustinajuri18/ISW-G9-4K1-2026)**
-
 ### Integrantes del Grupo
 
 * **Nombre:** Calderón, Ana Victoria - **Legajo:** 402851 - **Usuario:** viccalderon
@@ -51,6 +46,10 @@ La estructura del repositorio Trunk-Based se rediseña para reflejar físicament
 │   │   │   └── ISW_Consignas_Trabajos_Investigacion.pdf
 │   │   └── /Templates                  (De Cátedra - Plantillas estandarizadas para documentos)
 │   │       └── ISW_Template_<<Nombre>>.xlsx/docx
+│   │   ├── /Clases_Grabadas             (De Cátedra - Enlaces a grabaciones de clases de 4K1)
+│   │   │   └── ISW_Clases_Grabadas.md
+│   │   └── /Instructivos                (De Cátedra - Instructivos y materiales proporcionados por la cátedra)
+│   │       └── ISW_Instructivo_<<Nombre>>.pdf
 │   ├── /Material_Clase                 (De Clase - Dinámicas y notas espontáneas del aula)
 │   │   ├── ISW_Notas_<<DDMM>>.pdf       (De Clase - Apuntes y toma de notas tomadas durante la clase)
 │   │   └── ISW_Ejercicio<<NN>>_<<Tema>>.pdf (De Clase - Soluciones a TPs no evaluables y prácticas)
@@ -59,8 +58,8 @@ La estructura del repositorio Trunk-Based se rediseña para reflejar físicament
 │       │   └── ISW_Resumen_U<<NN>>_<<Tema>>.pdf
 │       ├── /Resoluciones_TPs           (De Producción Propia - Carpetas contenedoras de entregables)
 │       │   └── /ISW_TP<<NN>>_<<NombreTP>>
-│               └── /ISW_Resolucion_TP<<NN>>_<<NombreTP>>.pdf
-                └── /ISW_MaterialExtra_TP<<NN>>_<<NombreTP>>.zip/rar
+              └── ISW_Resolucion_TP<<NN>>_<<NombreTP>>.pdf
+│             └── ISW_MaterialExtra_TP<<NN>>_<<NombreTP>>.zip/rar
 │       └── /Trabajos_Investigacion     (De Producción Propia - Informes y presentaciones de investigación)
 │           └── ISW_Trabajos_Investigacion<<NN>>_<<Nombre>>.pdf
 
@@ -88,9 +87,26 @@ Para mantener la trazabilidad e integridad de los contenidos, cada archivo se id
 | **Toma de Notas de Clase** | `ISW_Notas_<<DDMM>>.pdf` | `/Tronco_Activo/Material_Clase/` | **De Clase** | Registro dinámico de conceptos teóricos capturados en clase. |
 | **Ejercicios de Clase** | `ISW_Ejercicio<<NN>>_<<Tema>>.pdf` | `/Tronco_Activo/Material_Clase/` | **De Clase** | Resolución de trabajos prácticos no evaluables o ejercicios de aula. |
 | **Resúmenes Teóricos** | `ISW_Resumen_U<<NN>>_<<Tema>>.pdf` | `/Tronco_Activo/Produccion_Propia/Resumenes/` | **De Producción Propia** | Resúmenes teóricos elaborados para exámenes parciales/finales. |
-| **Resolución TPs Evaluables** | `//ISW_Resolucion_TP<<NN>>_<<NombreTP>>.pdf` | `/Tronco_Activo/Produccion_Propia/Resoluciones_TPs/ISW_TP<<NN>>_<<NombreTP>>/` | **De Producción Propia** | Resolución de trabajos prácticos evaluables |
-| **Material Extra TPs Evaluables** | `/ISW_MaterialExtra_TP<<NN>>_<<NombreTP>>/` | `/Tronco_Activo/Produccion_Propia/Resoluciones_TPs/` | **De Producción Propia** | Material extra que fue utilizado durante la realización del trabajo práctico. |
+| **Resolución TPs Evaluables** | `ISW_Resolucion_TP<<NN>>_<<NombreTP>>.pdf` | `/Tronco_Activo/Produccion_Propia/Resoluciones_TPs/ISW_TP<<NN>>_<<NombreTP>>` | **De Producción Propia** | Resolución de Trabajos Prácticos Evaluables |
+| **Material Extra TPs Evaluables** | `ISW_MaterialExtra_TP<<NN>>_<<NombreTP>>.rar/zip` | `/Tronco_Activo/Produccion_Propia/Resoluciones_TPs/ISW_TP<<NN>>_<<NombreTP>>` | **De Producción Propia** | Material extra que fue utilizado durante la realización del trabajo práctico. |
 | **Trabajos de Investigación** | `ISW_Trabajos_Investigacion<<NN>>_<<Nombre>>.pdf` | `/Tronco_Activo/Produccion_Propia/Trabajos_Investigacion/` | **De Producción Propia** | Informes de investigación técnica elaborados por el equipo. |
+| **Índice de Clases Grabadas** | `ISW_Clases_Grabadas.md` | `/Tronco_Activo/Material_Catedra/Clases_Grabadas/` | **De Cátedra** | Registro de las clases grabadas correspondientes a 4K1, identificadas por tema y enlace de acceso. |
+| **Instructivos de Cátedra** | `ISW_Instructivo_<<Nombre>>.pdf` | `/Tronco_Activo/Material_Catedra/Instructivos/` | **De Cátedra** | Instructivos y materiales proporcionados por la cátedra para establecer pautas y orientar la realización y presentación de actividades académicas. |
+
+---
+### Glosario de Placeholders
+
+Los placeholders utilizados en las reglas de nombrado representan valores variables que deben ser reemplazados según el elemento de configuración correspondiente.
+
+| Placeholder | Descripción |
+|---|---|
+| `<<NN>>` | Número identificador correspondiente al elemento de configuración. |
+| `<<Nombre>>` | Nombre descriptivo que permite identificar el contenido del elemento. |
+| `<<Tema>>` | Tema principal asociado al material o contenido. |
+| `<<DDMM>>` | Fecha correspondiente al elemento, expresada mediante dos dígitos para el día y dos para el mes. |
+| `<<NombreTP>>` | Nombre identificador del Trabajo Práctico correspondiente. |
+| `<<HITO>>` | Nombre del hito asociado a la línea base. |
+| `<<X.Y>>` | Número de versión de la línea base, donde X representa la versión mayor e Y la versión menor. |
 
 ---
 
@@ -163,19 +179,3 @@ Para evitar la burocracia innecesaria de un comité tradicional de control de ca
 
 * **PCA (Auditoría Física de Configuración)**: El Administrador de Configuración del grupo valida periódicamente que los archivos estén en las carpetas correctas del repositorio, que el nombrado sea consistente con la Matriz de Identificación de Ítems de Configuración (SCIs) y que el contenido del repositorio coincida exactamente con el contenido estipulado para dicha Línea Base.
 * **FCA (Auditoría Funcional de Configuración)**: Un integrante diferente al autor de un TP realiza una verificación funcional (auditoría del entregable) controlando el contenido versus el enunciado oficial de la cátedra para asegurar que cubra el 100% de los requisitos y criterios de evaluación antes de congelar la entrega.
-
----
-
-### Declaración de Uso de Inteligencia Artificial
-
-Para la realización del presente trabajo práctico se utilizaron herramientas de **Inteligencia Artificial (IA)** como apoyo complementario durante el proceso de planificación y configuración del repositorio.
-
-Su utilización estuvo orientada principalmente a la **organización y estructuración de la información, análisis y revisión de las decisiones de configuración adoptadas, mejora de la redacción y revisión conceptual de los contenidos incluidos en el Plan de Gestión de Configuración (SCMP)**.
-
-Las propuestas obtenidas mediante estas herramientas fueron revisadas, analizadas y adaptadas por los integrantes del grupo de acuerdo con los contenidos y lineamientos establecidos por la cátedra y con las decisiones adoptadas por el equipo para la gestión del repositorio.
-
-Por lo tanto, la utilización de Inteligencia Artificial se realizó como una **herramienta de apoyo al desarrollo del trabajo**, manteniendo en todo momento la revisión crítica, validación y responsabilidad final sobre las decisiones y contenidos por parte de los integrantes del grupo.
-
----
-
-  
